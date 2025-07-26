@@ -1,6 +1,6 @@
 #----------------------------------
 # Stage 1
-#----------------------------------
+#---------------------------------
 
 # Import docker image with maven installed
 FROM maven:3.8.3-openjdk-17 as builder 
