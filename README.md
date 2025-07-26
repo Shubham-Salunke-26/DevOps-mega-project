@@ -33,15 +33,13 @@
 
 ### Adding Linux Terminal in VSCode (Windows Users)
 
-If you are on Windows, refer to this [guide](https://amitabhdevops.hashnode.dev/a-step-by-step-guide-to-adding-ubuntu-wsl-in-vs-code-terminal) to integrate an Ubuntu terminal in VSCode for seamless project execution.
-
 ---
 
 ## Step 3: Fork and Clone the Project Repository
 
 1. **Fork the Repository:**
     
-    * Open the repository [DevOps Mega Project](https://github.com/Amitabh-DevOps/DevOps-mega-project) on GitHub.
+    * Open the repository [DevOps Mega Project](https://github.com/Shubham-Salunke-26/DevOps-mega-project) on GitHub.
         
     * Click **Fork** to create a copy in your GitHub account.
         
@@ -576,7 +574,7 @@ If you don't have a domain, you can expose the service using **NodePort**.
 
 ### 1\. Install Jenkins on the Master Node
 
-Install **Jenkins** on the master node by following this blog: [How to Install Essential DevOps Tools on Ubuntu Linux](https://amitabhdevops.hashnode.dev/how-to-install-essential-devops-tools-on-ubuntulinux).
+Install **Jenkins** on the master node 
 
 After installation, open port **8080** on the master node and access Jenkins in your browser:
 
@@ -617,7 +615,7 @@ To integrate Jenkins with Docker, you need to install **Docker** and add both th
 
 ### 3\. Add DockerHub Credentials
 
-Add your **DockerHub** credentials to Jenkins. You can refer to this blog for detailed steps: [Django Notes App using Jenkins CI/CD](https://amitabhdevops.hashnode.dev/django-notes-app-using-jenkins-cicd#heading-step-12-set-up-docker-hub-credentials-in-jenkins).
+Add your **DockerHub** credentials to Jenkins.
 
 ---
 
@@ -629,13 +627,13 @@ Add **GitHub** credentials to Jenkins as well to enable seamless integration wit
 
 ### 5\. Set Up Webhook for Continuous Integration
 
-To automatically trigger Jenkins builds on changes in your GitHub repository, set up a webhook. Follow the instructions in this blog: [Set Up Webhooks for Automatic Deployment](https://amitabhdevops.hashnode.dev/django-notes-app-using-jenkins-cicd#heading-step-13-set-up-webhooks-for-automatic-deployment).
+To automatically trigger Jenkins builds on changes in your GitHub repository, set up a webhook.
 
 ---
 
 ### 6\. Create a Jenkins Pipeline Job
 
-Create a **Jenkins Pipeline** job using the reference in this blog: [Create a Jenkins Pipeline Job](https://amitabhdevops.hashnode.dev/django-notes-app-using-jenkins-cicd#heading-step-10-create-a-jenkins-pipeline-job).
+Create a **Jenkins Pipeline** job 
 
 While creating the job, ensure that you check the box for **This project is parameterized** to allow dynamic configuration during the build.
 
@@ -765,67 +763,4 @@ In conclusion, your DevSecOps Mega Project showcases a well-structured and autom
 
 # <mark>Project ended here.</mark>
 
-below is for opensource opportunity for contrubutors.
-
 ---
-
-## Open Source Opportunity: Contribute and Win Free Gift Hampers from TrainWithShubham
-
-We are thrilled to announce an exciting **open-source opportunity** for contributors to this project. As a token of appreciation, contributors will receive **Free Gift Hampers** from **TrainWithShubham**. The hampers may include a variety of items to make your contribution even more rewarding.
-
-## How You Can Contribute
-
-We are looking for contributions in the following areas:
-
----
-
-### 1\. **Solve the Application Login Issue After Domain Mapping**
-
-After mapping the domain to the application, there may be issues with user login. If you have experience in troubleshooting or resolving login issues post-domain mapping, we encourage you to contribute a solution. Possible areas for improvement include authentication, DNS configurations, or session management.
-
-### Resolved:
-
-https://github.com/user-attachments/assets/4baf7031-5744-40c5-8035-10e4d1cc4457
-
-
----
-
-### 2\. **Add the Security (Sec) Part of DevSecOps to the Project**
-
-Security should be a priority for any application. By incorporating **DevSecOps** practices into the project, we can significantly improve its security. Contributions may involve:
-
-* Implementing automated security scans within the CI/CD pipeline.
-    
-* Integrating tools like **OWASP ZAP**, **Trivy**, or **SonarQube** for vulnerability assessments.
-    
-* Securing Kubernetes, Docker, and application infrastructure.
-    
-
----
-
-### 3\. **Further Improvements**
-
-We are always looking for ways to improve the project. If you have ideas for additional features or optimizations, we would love to see them:
-
-* Enhancing performance and scalability.
-    
-* Improving monitoring and logging capabilities.
-    
-* Streamlining deployment and automation processes.
-    
-* Improving user experience and interface design.
-    
-
----
-
-## How to Contribute
-
-To contribute, simply **fork the repository**, make your changes, and submit a **pull request (PR)**. If your contribution is accepted, you will receive a **Free Gift Hamper** from **TrainWithShubham** as a thank-you for your efforts.
-
----
-
-## Join the Open-Source Community
-
-We welcome all developers, whether beginners or experienced, to join the open-source community and contribute to this project. Let’s work together to make this project even better!
-
-We look forward to your innovative contributions, and remember, great work deserves great rewards!
