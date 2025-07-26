@@ -3,7 +3,7 @@
 ## **Phase 1: Initial Setup and Deployment**
 
 ### **Step 1: Launch EC2 (Ubuntu 22.04)**
-- Launch an AWS EC2 instance (Ubuntu) with the following specifications:
+- Launch an AWS EC2 instance (Ubuntu) with the following specification:
   - Instance type: `t2.large`
   - Root volume: `29GB`
 - Connect to the instance using SSH.
