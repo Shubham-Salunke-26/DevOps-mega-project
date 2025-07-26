@@ -152,8 +152,6 @@
 
 ## Step 7: Install Essential DevOps Tools on created Instance.
 
-Follow this [guide](https://amitabhdevops.hashnode.dev/how-to-install-essential-devops-tools-on-ubuntulinux) to install:
-
 * AWS CLI
     
 * kubectl
@@ -497,12 +495,6 @@ Once installed, Cert-Manager will be responsible for automatically issuing and r
 
 Click **Create** to finish the setup and deploy your application.
 
-![image](https://github.com/user-attachments/assets/c264ccbc-9ba7-40e1-8925-47e48ec65b26)
-
-
-![image](https://github.com/user-attachments/assets/dbabd258-d314-4648-b17a-f17bdb1ec55d)
-
-
 ---
 
 ## Step 12: Exposing the Application via Ingress or NodePort
@@ -519,21 +511,12 @@ In this step, we will walk through two options to expose your application to the
     kubectl get svc -n ingress-nginx
     ```
     
-2. Copy the **External-IP** from the output and create a **CNAME record** on your domain. For example, use [`amitabh.letsdeployit.com`](http://amitabh.letsdeployit.com) as your domain, and replace it in the `bankapp-ingress.yml` file with your domain name, take a reference of below image:
-    
-    1. ![image](https://github.com/user-attachments/assets/117c42ad-025c-4ad7-af88-064ddbfc86b4)
+2. Copy the **External-IP** from the output and create a **CNAME record** on your domain. For example, use [`amitabh.letsdeployit.com`] as your domain, and replace it in the `bankapp-ingress.yml` file with your domain name, take a reference of below image:
 
         
 3. After updating the `bankapp-ingress.yml` file, sync the application in **ArgoCD**.
     
-4. Once synchronized, open your browser and access the application via your domain (e.g., [`amitabh.letsdeployit.com`](http://amitabh.letsdeployit.com)).
-    
-    1. ![image](https://github.com/user-attachments/assets/8c7076dc-2908-45a9-a920-86ff281e2a4b)
-
-        
-    2. ![image](https://github.com/user-attachments/assets/ab5e3652-5296-4744-bc38-1ec2fd7a32a7)
-
-        
+4. Once synchronized, open your browser and access the application via your domain      
 
 ---
 
@@ -562,11 +545,6 @@ If you don't have a domain, you can expose the service using **NodePort**.
 4. Now, access your application in the browser using the URL format: `http://<worker_node_public_ip>:<nodeport>`.
     
     ![image](https://github.com/user-attachments/assets/1414aff3-7137-4c3c-b043-f63d964eee54)
-
-    
-    ![image](https://github.com/user-attachments/assets/bc9fff7e-5aee-40f5-963f-5683e9dc1a8f)
-
-    
 
 ---
 
@@ -646,27 +624,6 @@ Once everything is set up, trigger the pipeline build by selecting **Build with 
 * Check the **Docker Hub** for the tagged images after the build.
     
 * Ensure that the **bankapp-deployment** is using the correct image tag from **Docker Hub**. take a reference of below image
-    
-    ![image](https://github.com/user-attachments/assets/4600f18f-c57d-4e40-b517-4d9507f09a0b)
-
-    
-    
-* ![image](https://github.com/user-attachments/assets/c1db5a21-1f22-49c6-b674-5604efb8dc2f)
-
-    
-
-![image](https://github.com/user-attachments/assets/cfd5988d-471d-481d-9bf9-f0581c4b7d98)
-
-
-![image](https://github.com/user-attachments/assets/b0c815ec-9960-443d-95e7-69511b462ee6)
-
-
-![image](https://github.com/user-attachments/assets/4135926b-b89b-4202-813c-3ecf387e0475)
-
-
-![image](https://github.com/user-attachments/assets/fe09aa64-a777-4a8e-9da4-b999a3734119)
-
-
 ---
 
 ## Step 14: Setting Up Observability with Prometheus and Grafana
